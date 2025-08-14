@@ -1,0 +1,14 @@
+{
+	"id": "Rounder",
+	"name": "Rounder",
+	"display_name": "Rounder",
+	"author": ["stupxd"],
+	"description": "Fractional money? IN MY BALATRO? Unforgivable.",
+	"prefix": "rndr",
+	"main_file": "main.lua",
+	"priority": 2345678901,
+	"badge_colour": "#f5e27a",
+	"badge_text_colour": "#ffffff",
+	"version": "1",
+	"dependencies": []
+}
