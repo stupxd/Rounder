@@ -8,9 +8,10 @@ SMODS.Atlas {
 
 
 local function meow(ab)
+    local sign = ab < 0 and -1 or 1
     local floored = math.floor(ab)
     if ab ~= floored and math.random() < (ab - floored) then
-        return floored + 1
+        return floored + 1 * sign
     end
     return floored
 end
